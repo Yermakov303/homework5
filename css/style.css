@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-family: "helvetica";
+   
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left{
+
+width: 70%;
+float: left;
+height: 40px;
+    
+}
+.right{
+    color: white;
+    float: right;
+    width: 30%;
+    height: 40px;
+    }
+img{
+    padding: 10px 0px 10px 20px;
+    
+    float: left;
+    border-left: 1px solid white;
+   
+}
+header .right a{
+    
+ color: white;
+
+}
+a.disabled {
+    pointer-events: none;
+}
+header .left ul{
+    padding: 0px 0px 0px 500px;
+}
+header ul{
+     background: #085292;
+     padding-left: 1px;
+}
+header li{
+      display: inline-block;
+}
+header a{
+  display: block;
+     padding: 12px 10px 12px 20px;
+  color: #60b5ed;
+  background: #085292; 
+  text-decoration: none;
+    text-align: center;
+}
+header a:hover {
+     color: white;
+     background: #4eabda;
+}
+#li{
+    display: inline-flex;
+   }
+#li a:hover{
+     background: #4eabda;
+}
+
+.content{
+    margin: 2px auto 100px auto;;
+    text-align: center;
+    width: 560px;
+    height: 580px;
+    background:  rgba(0,0,0,0.6);
+    color: white;
+  }
+span{
+    display: block;
+    padding-top: 15px;
+    margin: 200px auto auto auto;
+    text-align: center;
+    width: 560px;
+    height: 50px;
+    background:  rgba(0,0,0,0.6);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+#facebook{
+    margin-top: 20px;
+    background: none;
+    width: 270px;
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+}
+
+#hr{
+    display: block;
+    color: grey;
+}
+.hrleft{
+    color: rgba(0,0,0, 0.7);
+    padding-top: 10px;
+    padding-left: 145px;
+    float: left;
+    width: 47%;
+    width: 115px;
+}
+.hrright{
+    padding-top: 10px;
+    padding-right: 145px;
+    float: right;
+    width: 47%;
+    width: 115px;
+}
+.input {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.input input{
+    background: rgba(0,0,0, 0.7); 
+    color: white;
+    float: сenter;
+	height: 35px;
+	line-height: 30px;
+	margin: 10px 10px;
+	padding: 0px 20px;
+	width: 230px;
+	border: none;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+  }
+.input input:focus {
+    color: white;
+     background:  rgba(27,82,136, 0.9); 
+     border: 1px solid #29B0D9;
+    box-shadow: 0px 0px 25px 5px rgba(27,82,136,0.9);
+}
+.check{
+    color: white;
+    margin: 10px 10px;
+	padding: 0px 115px;
+	width: 230px;
+	font-size: 14px;
+}
+
+.submit input {
+    background: #4ba7d8;
+    margin: 10px 5px 20px 5px;
+	width: 150px;
+    height: 35px;
+    border: 1px solid #2f7bc5;
+    border-radius: 3px;
+     color: white;
+    font-size: 14px;
+    }
+
+p{
+   font-size: 11px;
+}
